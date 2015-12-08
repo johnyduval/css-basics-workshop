@@ -1,1 +1,68 @@
 /* write your css here */
+
+.entry-header__photo {
+    max-width: 100px;
+    display: inline-block;
+    float: left;
+}
+
+.entry-header__name {
+    width: 80%;
+    display: inline-block;
+    padding-left: 15px;
+    position:absolute;
+    bottom: -15px;
+}
+
+.entry-header {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid #d3d3d3;
+    padding-bottom: 10px;
+}
+
+.entry-subsection__heading {
+    padding: 5px;
+    background-color: #fc644e;
+    color: white;
+}
+
+.entry-entity {
+    border: 2px black solid;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 400px){
+    .addresses {
+        float: left;
+        width: 50%;
+        display: inline-block;
+        padding-right: 5px;
+    }
+    .contact {
+        float: right;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 800px){
+    .addresses {
+        float: left;
+        width: 33.3333%;
+        display: inline-block;
+        padding-right: 5px;
+    }
+    .phones {
+        float: right;
+        width: 33.33333%;
+        padding-right: 5px;
+    }
+    .emails {
+        width: 33.333%;
+    }
+}
+
+.entry-entity__heading, .entry-entity__content {
+    padding: 10px;
+}
