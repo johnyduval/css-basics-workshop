@@ -1,1 +1,36 @@
 /* write your css here */
+*{
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 800px){
+    div img {
+    width: 33.333333%;
+    display: inline-block;
+    float: left;
+    }
+}
+
+@media screen and (max-width: 800px){
+    div img {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    }
+}
+
+@media screen and (max-width: 400px){
+    div img {
+        width: 100%;
+        display: inline-block;
+        float: left;
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    padding: 7px;
+}
