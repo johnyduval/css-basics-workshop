@@ -1,1 +1,46 @@
 /* write your css here */
+*{
+    box-sizing: border-box;
+}
+
+
+.second-section h3 {
+    text-align: center;
+}
+
+.first-section ul {
+    list-style-type: none;
+}
+
+.compare {
+    list-style-type: none;
+}
+
+.first-section h3 {
+    font-weight: bold;
+}
+
+ul {
+    padding: 0px;
+}
+
+@media screen and (min-width: 400px) {
+    .first-section li {
+        width: 48%;
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .first-section li {
+        width: 24%;
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .second-section .compare > li {
+        width: 48%;
+        display: inline-block;
+    }
+}
